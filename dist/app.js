@@ -98,8 +98,8 @@ var currentTurn = document.getElementById("currentTurn");
 currentTurn.style.top = getCurrentTurnTop();
 updateCurrentTurn(true);
 createRoomBtn.onclick = function () {
-    //lanbridge.startCreateRoom("onCreateRoomResult")
-    onCreateRoomResult("");
+    lanbridge.startCreateRoom("onCreateRoomResult");
+    // onCreateRoomResult("")
 };
 var joinRoomBtn = document.getElementById('joinRoom');
 joinRoomBtn.onclick = function () {
